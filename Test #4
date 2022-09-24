@@ -1,0 +1,12 @@
+fun main () {
+    class predators (val name:  String, val colour: String) 
+    class nonpredators (val name: String, val weight: Int, val food: String)
+    val Tirex = predators ("Tirex", "brown")
+    val Croco = predators ("Crocodile", "green")
+    val Raby = nonpredators ("Rabbit", 5, "grass")
+    val Diplo = nonpredators ("Diplodok", 1000, "trees")
+
+    print("Predators are ${Tirex.name+" and "+Croco.name}")
+    println()
+    
+     print("Nonpredators are ${Diplo.name+" and "+Raby.name}")
